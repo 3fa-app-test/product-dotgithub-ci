@@ -2,3 +2,4 @@ tmp
 temp
 tmp/worktrees
 temp/worktrees
+**/__pycache__/

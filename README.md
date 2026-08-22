@@ -21,6 +21,11 @@ The canonical execution board is [GitHub Project `3FA-app-project` #1](https://g
 
 Private repository details are intentionally withheld from this public document.
 
+The canonical execution board currently projects 14 repositories, including
+[`3FA-app/3FA-app-cli`](https://github.com/3FA-app/3FA-app-cli) with role `cli`.
+Pull-request and `main` workflows publish a deterministic Markdown/JSON project
+registry plus SHA-256 checksums as a GitHub Actions artifact.
+
 <!-- ore-org-baseline:begin -->
 ## Organization-wide defaults
 

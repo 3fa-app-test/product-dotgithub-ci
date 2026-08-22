@@ -103,7 +103,7 @@ class ProjectRegistryTests(unittest.TestCase):
             "ghp_" + "A" * 36,
             "lin_api_" + "B" * 32,
             "cfat_" + "C" * 32,
-            "-----BEGIN PRIVATE KEY-----",
+            "-----BEGIN " + "PRIVATE KEY-----",
         ):
             with self.subTest(value=value[:12]):
                 with self.assertRaisesRegex(ValueError, "credential-like material"):

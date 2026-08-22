@@ -29,7 +29,7 @@ jobs:
             SUPPORT.md
             CODE_OF_CONDUCT.md
             GOVERNANCE.md
-            AGENTS.md
+            agents.md
             ORGANIZATION_ROUTING.md
             organization-routing.json
             docs/PROJECTS.md

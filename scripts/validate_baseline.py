@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(sys.argv[1] if len(sys.argv) > 1 else '.').resolve()
 REQUIRED = [
-    'README.md', 'profile/README.md', 'ORG_CONTEXT.md', 'agents.md', 'AGENTS.md',
+    'README.md', 'profile/README.md', 'ORG_CONTEXT.md', 'agents.md',
     'CONTRIBUTING.md', 'SECURITY.md', 'SUPPORT.md', 'CODE_OF_CONDUCT.md',
     'GOVERNANCE.md', '.github/pull_request_template.md',
     '.github/copilot-instructions.md', '.github/dependabot.yml',
