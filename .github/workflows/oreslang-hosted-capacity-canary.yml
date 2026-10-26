@@ -1,0 +1,16 @@
+name: Oreslang hosted runner capacity canary
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  allocation-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    steps:
+      - name: Prove hosted runner allocation
+        shell: bash
+        run: |
+          set -euo pipefail
+          uname -a
+          printf 'HOSTED_RUNNER_ALLOCATED=1\n'
